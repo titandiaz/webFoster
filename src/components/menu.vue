@@ -30,6 +30,7 @@ export default {};
   height: 60px;
 }
 .menu {
+  
     background-color: #f9fafb;
     display: flex;
     align-items: center;
