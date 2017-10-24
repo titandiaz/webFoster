@@ -2,6 +2,7 @@
   <div id="app">
     <menu-top></menu-top>
     <banner-menu></banner-menu>
+    <features-foster></features-foster> 
     <router-view/>
   </div>
 </template>
@@ -10,17 +11,21 @@
 
 import menuTop from './components/menu.vue'
 import bannerMenu from './components/banner.vue' 
+import featuresFoster from './components/features.vue'
 export default {
   name: 'app',
   components: {
     menuTop,
-    bannerMenu
+    bannerMenu,
+    featuresFoster
   }
 }
 </script>
 
 <style>
 html, body {
+  color: #6b7c93;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -29,7 +34,7 @@ a {
 }
 #app {
 
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  color: #2c3e50;
+  
+  /* color: #2c3e50; */
 }
 </style>
