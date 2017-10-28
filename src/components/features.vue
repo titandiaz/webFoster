@@ -53,7 +53,7 @@
             </div>
             
         </div>
-        <button class="btn-us">Conocenos</button>
+        <button class="btn-blue">Conocenos</button>
     </div>
 
 </template>
@@ -66,7 +66,7 @@ export default {
 
 <style>
 .title-feature {
-    color: #2c3e50;
+    color: #4a4a4a;
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
     font-weight: normal;
@@ -88,16 +88,6 @@ export default {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-}
-.btn-us {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    color: #fff;
-    padding: 1em 3em;
-    background-color: #4b74ff;
-    border: 0;
-    border-radius: 2px;
 
 }
 .section-features {
