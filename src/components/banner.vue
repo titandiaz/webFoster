@@ -18,11 +18,13 @@ export default {
     max-width: 100%;
     height: 80vh;
     background-image: url("../assets/unrkg-2-jh-1-j-0-olu-eletu.png");
+    background-position: 50%;
     background-size: cover;
 }
 
 .title-banner {
     color: #fff;
+    font-size: 48px;
     /* text-align: center; */
 }
 .subtitle-banner {

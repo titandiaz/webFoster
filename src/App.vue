@@ -1,32 +1,42 @@
 <template>
   <div id="app">
     <menu-top></menu-top>
+    <menu-hamburger></menu-hamburger>
     <banner-menu></banner-menu>
-    <features-foster></features-foster> 
-    <router-view/>
+    <features-foster></features-foster>
     <section-develop></section-develop>
     <section-technologies></section-technologies>
     <section-experts></section-experts>
+    <section-end></section-end>
+    <footer-foster></footer-foster>
+    <router-view/>
+    
   </div>
 </template>
 
 <script>
 
 import menuTop from './components/menu.vue'
+import menuHamburger from './components/menuHamburger.vue'
 import bannerMenu from './components/banner.vue' 
 import featuresFoster from './components/features.vue'
 import sectionDevelop from './components/section-develop.vue'
 import sectionTechnologies from './components/section-technologies.vue'
 import sectionExperts from './components/section-experts.vue'
+import sectionEnd from './components/section-end.vue'
+import footerFoster from './components/footer.vue'
 export default {
   name: 'app',
   components: {
     menuTop,
+    menuHamburger,
     bannerMenu,
     featuresFoster,
     sectionDevelop,
     sectionTechnologies,
-    sectionExperts
+    sectionExperts,
+    sectionEnd,
+    footerFoster
   }
 }
 </script>

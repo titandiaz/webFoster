@@ -27,6 +27,7 @@ export default {
     color:#24b47e;
     letter-spacing: 1.5px;
     font-weight: normal;
+    
 }
 .section-experts {
     display: flex;
@@ -35,10 +36,12 @@ export default {
     width: 100%;
     height: 600px;
     background-color: #E8F0F8;
+    /* padding: 40px 0; */
 }
 .container-section-experts {
     width: 1300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .container-one {

@@ -20,6 +20,7 @@ export default {
 
 <style>
 .section-develop {
+  padding: 40px 0;
   margin-top: 60px;
   background-color: #E8F0F8;
 }
@@ -35,10 +36,11 @@ export default {
 
 .container-section-develop {
   text-align: right;
-  height: 600px;
+  min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   padding-right: 30px;
   padding-left: 30px;
 }

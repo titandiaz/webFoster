@@ -1,14 +1,14 @@
 <template>
-  <div class="menu">
-    <img src="../assets/top-banner_2.png" class="logo-foster" alt="logo foster">
-    <nav class="menu-navigation">
-      <ul class="list-menu">
+  <div class="menu-primary">
+    <!-- <img src="../assets/top-banner_2.png" class="logo-foster" alt="logo foster"> -->
+    <!-- <nav class="menu-navigation"> -->
+      <!-- <ul class="list-menu">
         <li class="item-menu"><a href="#" class="link-item-menu">Inicio</a> </li>
         <li class="item-menu"><a href="#" class="link-item-menu">Nosotros</a> </li>
         <li class="item-menu"><a href="#" class="link-item-menu">Portafolio</a> </li>
         <li class="item-menu"><a href="#" class="link-item-menu">Blog</a> </li>
-      </ul>
-    </nav>
+      </ul> -->
+    <!-- </nav> -->
     <!-- <div class="buttons-contact">
       <div class="container-buttons-contact">
         <div class=" btn-contact btn-lenguage"><img src="../assets/flag-col.png" alt=""></div>
@@ -25,7 +25,7 @@ export default {};
 </script>
 
 <style>
-.logo-foster {
+/* .logo-foster {
   margin-left: 50px;
   height: 60px;
 }
@@ -36,15 +36,16 @@ export default {};
     align-items: center;
     max-width: 100%;
     height: 80px;
-}
+} */
 
-.menu-navigation {
+/* .menu-navigation {
   align-self: center;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   height: auto;
   padding-left: 50px;
-}
-
+} */
+/* 
 .list-menu {
   display: flex;
   padding: 0;
@@ -52,27 +53,27 @@ export default {};
   list-style: none;
   justify-content: space-between;
   font-weight: bold;
-}
-.buttons-contact {
+} */
+/* .buttons-contact {
   width: 200px;
   height: auto;
 }
 .container-buttons-contact {
-  display: flex;
+  display: flex; */
   
   /* justify-content: space-between; */
   /* align-items: center; */
-}
+/* }
 .btn-contact {
   margin-left: 20px;
-}
+} */
 /* .btn-facebook {
   border: 1px solid blue;
   border-radius: 50%;
   padding: 10px 10px;
 } */
-.link-item-menu {
+/* .link-item-menu {
   color: #2c3e50;
   padding: 1em;
-}
+} */
 </style>

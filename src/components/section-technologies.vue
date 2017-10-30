@@ -24,6 +24,7 @@ export default {
   right: 0;
   bottom: 0;
   width: 900px;
+  z-index: -1;
 }
 .container-section-technologies {
   height: 600px;
@@ -31,7 +32,8 @@ export default {
   
 }
 .description-section-technologies {
-  width: 650px;
+  max-width: 650px;
+  width: 100%;
 }
 .container-description-technologies {
   padding: 80px 0 0 10%;
