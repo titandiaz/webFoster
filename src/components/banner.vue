@@ -2,7 +2,7 @@
   <div class="banner">
       <div class="description-banner">
         <h1 class="title-banner">Soluciones Digitales Creativas</h1>
-        <p class="subtitle-banner">Tecnología / Diseño / Innovación</p>
+        <p class="subtitle-banner">Tecnología &nbsp; &nbsp;/&nbsp; &nbsp; Diseño &nbsp; &nbsp;/&nbsp; &nbsp; Innovación</p>
       </div>
   </div>
 </template>
@@ -26,7 +26,9 @@ export default {
     /* text-align: center; */
 }
 .subtitle-banner {
+    font-size: 25px;
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
     /* width: 600px; */
     /* text-align: center; */
 }

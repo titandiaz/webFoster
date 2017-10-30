@@ -21,7 +21,7 @@ export default {
 <style>
 .section-develop {
   margin-top: 60px;
-  background-color: #f6f9fc;
+  background-color: #E8F0F8;
 }
 .image-develop {
   width: 400px;
@@ -47,6 +47,10 @@ export default {
   color: #4b74ff;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+}
+.description-section {
+  font-size: 21px;
+  line-height: 1.5;
 }
 
 </style>
